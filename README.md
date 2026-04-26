@@ -1,4 +1,5 @@
-https://github.com/mythri-579/html-tutorial
+https://mythri-579.github.io/html-tutorial
+
 HTML Tutorial Website
 
 This is a beginner-friendly HTML tutorial website built using HTML, CSS, and JavaScript that
