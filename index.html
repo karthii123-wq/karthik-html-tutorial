@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Mastery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>HTML Topics</h2>
+        <button onclick="loadContent('intro')">Introduction</button>
+        <button onclick="loadContent('basic')">Basic Elements</button>
+        <button onclick="loadContent('headings')">Headings</button>
+        <button onclick="loadContent('paragraphs')">Paragraphs</button>
+        <button onclick="loadContent('forms')">Forms</button>
+        <button onclick="loadContent('div')">Div</button>
+        <button onclick="loadContent('links')">Links</button>
+        <button onclick="loadContent('images')">Images</button>
+        <button onclick="loadContent('buttons')">Buttons</button>
+        <button onclick="loadContent('tables')">Tables</button>
+        <button onclick="loadContent('comments')">Comments</button>
+        <button onclick="loadContent('colors')">Colors</button>
+    </div>
+
+    <!-- Content -->
+    <div class="content" id="content">
+        <h2>Welcome 👋</h2>
+        <p>Select a topic from the left to start learning HTML.</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

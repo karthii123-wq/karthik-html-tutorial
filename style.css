@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #1e293b;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border: none;
+    background: #334155;
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar button:hover {
+    background: #3b82f6;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    padding: 30px;
+}
+
+/* Code box */
+pre {
+    background: #0f172a;
+    color: #22c55e;
+    padding: 10px;
+    border-radius: 8px;
+}
