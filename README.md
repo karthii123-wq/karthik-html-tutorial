@@ -1,4 +1,4 @@
-https://mythri-579.github.io/html-tutorial
+https://github.io/karthii123-wq.html-tutorial
 
 HTML Tutorial Website
 
